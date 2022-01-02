@@ -258,9 +258,9 @@ img.intro {
 }
 img.intro2 {
   position: absolute;
-  width: 80%;
+  width: 65%;
   overflow-x: hidden;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
