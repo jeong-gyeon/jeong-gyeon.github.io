@@ -473,7 +473,7 @@ section #ab {
 }
 
 ul {
-  width: 90%;
+  width: 100%;
   margin-left: 1vw;
   z-index: 1001 !important;
 }
@@ -563,6 +563,14 @@ p.text {
   font-size: 0.4rem;
   line-height: 1.6;
   word-break: keep-all;
+}
+
+.img-preview{
+  width: 8%;
+}
+
+img.img-preview:hover{
+  transform: scale(5);
 }
 
 img.t-img {
