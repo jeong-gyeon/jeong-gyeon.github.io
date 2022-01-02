@@ -140,8 +140,7 @@ input,
 select,
 textarea {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
-    serif;
+    segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, serif;
 }
 
 @font-face {
@@ -178,7 +177,6 @@ body {
 
 html,
 body {
-  
 }
 
 header {
@@ -188,8 +186,8 @@ header {
   padding-left: 1vw;
   width: 100%;
   border-bottom: thin solid;
-    cursor: pointer;
-    z-index: 1001 !important;
+  cursor: pointer;
+  z-index: 1001 !important;
 }
 
 .themed {
@@ -253,6 +251,7 @@ header {
 /*<!-- Modal -->*/
 
 img.intro {
+  
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
@@ -394,7 +393,6 @@ a:visited {
 }
 .item:nth-of-type(3) {
   grid-column: 3 / span 1;
-  
 }
 .item:nth-of-type(4) {
   grid-column: 3 / span 1;
@@ -402,13 +400,11 @@ a:visited {
 }
 .item:nth-of-type(5) {
   grid-column: 4 / span 1;
-  
 }
 .item:nth-of-type(6) {
   grid-column: 4 / span 1;
-  grid-row: 2
+  grid-row: 2;
 }
-
 
 @media screen and (max-width: 720px) {
   .container {
@@ -565,11 +561,11 @@ p.text {
   word-break: keep-all;
 }
 
-.img-preview{
+.img-preview {
   width: 8%;
 }
 
-img.img-preview:hover{
+img.img-preview:hover {
   transform: scale(5);
 }
 
@@ -583,9 +579,8 @@ video.video-1 {
 }
 video.video-2 {
   width: 100%;
-margin: 30vw 0 0 0;
+  margin: 30vw 0 0 0;
 }
-
 
 /* swiper */
 
