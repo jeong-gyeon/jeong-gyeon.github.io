@@ -27,5 +27,11 @@ $(function () {
 $(document).ready(function () {
   $("label").click(function () {
     $(".logo").toggleClass("logo-invert");
+    $(".intro2").toggleClass("none");
+  });
+});
+$(document).ready(function () {
+  $("body").click(function () {
+    $(".intro2").addClass("none");
   });
 });

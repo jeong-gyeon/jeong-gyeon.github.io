@@ -257,9 +257,16 @@ img.intro {
   overflow-x: hidden;
 }
 img.intro2 {
+  position: absolute;
   width: 80%;
-
   overflow-x: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.none{
+  display: none;
 }
 
 iframe {
@@ -572,8 +579,8 @@ img.img-preview:hover {
 }
 
 img.t-img {
-  width: calc(67.5% - 16px);
-  margin: 3vw 0 0 32.5%;
+  width: calc(65% - 16px);
+  margin: 3vw 0 0 35%;
 }
 video.video-1 {
   width: calc(67.5% - 16px);
