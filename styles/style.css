@@ -490,6 +490,11 @@ li {
   cursor: pointer;
 }
 
+li:first-of-type{
+  
+}
+
+
 ol {
   display: block;
   width: 95%;
